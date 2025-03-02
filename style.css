@@ -25,6 +25,15 @@ header p {
     font-size: 1.2rem;
     opacity: 0.8;
 }
+.profile-img {
+    width: 150px;  /* Adjust the size */
+    height: 150px; 
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;  /* Ensures the image fits well */
+    display: block;
+    margin: 0 auto 10px; /* Centers the image */
+    border: 3px solid #007bff; /* Optional: Adds a border */
+}
 
 /* Sections */
 section {
@@ -84,3 +93,4 @@ footer p {
         font-size: 1rem;
     }
 }
+
